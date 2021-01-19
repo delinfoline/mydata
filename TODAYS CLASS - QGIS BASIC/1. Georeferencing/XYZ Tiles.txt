@@ -1,0 +1,21 @@
+Some example URLs
+OpenTopoMap
+https://tile.opentopomap.org/{z}/{x}/{y}.png
+(See comment below for attribution)
+
+OpenStreetMap
+http://tile.openstreetmap.org/{z}/{x}/{y}.png
+Google Hybrid
+https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}
+Google Satellite
+https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
+Google Road
+https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}
+(Codes for other tile types from Google found here)
+Bing Aerial
+http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1
+Esri
+https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}
+
+
+++++++++Delinfoline+++++++++++++++++++++++++++++++++++++++
