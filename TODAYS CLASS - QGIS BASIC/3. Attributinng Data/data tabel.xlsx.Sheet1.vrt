@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="data tabel">
+        <SrcDataSource relativeToVRT="1">data tabel.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>Sheet1</SrcLayer>
+        <Field name="FID" src="FID" type="Integer"/>
+        <Field name="KOTA" src="KOTA" type="String"/>
+        <Field name="SWK" src="SWK" type="String"/>
+        <Field name="KECAMATAN" src="KECAMATAN" type="String"/>
+        <Field name="JUMLAH_KK" src="JUMLAH_KK" type="Integer"/>
+        <Field name="Shape_Leng" src="Shape_Leng" type="Real"/>
+        <Field name="Shape_Area" src="Shape_Area" type="Real"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>

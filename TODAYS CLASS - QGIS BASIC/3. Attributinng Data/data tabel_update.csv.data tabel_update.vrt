@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="data tabel_update-data tabel_update">
+        <SrcDataSource relativeToVRT="1">data tabel_update.csv</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>data tabel_update</SrcLayer>
+        <Field name="FID" src="FID" type="String"/>
+        <Field name="KOTA" src="KOTA" type="String"/>
+        <Field name="SWK" src="SWK" type="String"/>
+        <Field name="KECAMATAN" src="KECAMATAN" type="String"/>
+        <Field name="JUMLAH_KK" src="JUMLAH_KK" type="String"/>
+        <Field name="Shape_Leng" src="Shape_Leng" type="String"/>
+        <Field name="Shape_Area" src="Shape_Area" type="String"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="" y=""/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>

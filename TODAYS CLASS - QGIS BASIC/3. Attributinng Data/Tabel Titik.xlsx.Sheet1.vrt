@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="Tabel Titik">
+        <SrcDataSource relativeToVRT="1">Tabel Titik.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>Sheet1</SrcLayer>
+        <Field name="ID" src="ID" type="Integer"/>
+        <Field name="KABUPATEN" src="KABUPATEN" type="String"/>
+        <Field name="SWK" src="SWK" type="String"/>
+        <Field name="Kecamatan" src="Kecamatan" type="String"/>
+        <Field name="Kelurahan" src="Kelurahan" type="String"/>
+        <Field name="RW" src="RW" type="Integer"/>
+        <Field name="Foto" src="Foto" type="String"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="X" y="Y"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
