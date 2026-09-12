@@ -1,0 +1,34 @@
+Ekstrak seluruh data pada file yang saya unggah ke dalam tabel Excel (.xlsx).
+
+Gunakan satu baris untuk setiap hotel dan gunakan heading kolom berikut:
+
+hotel_name
+google_maps_url
+image_url
+latitude
+longitude
+price
+rating
+review_count
+hotel_category
+description
+facility_1
+facility_2
+facility_3
+facility_4
+facility_5
+
+Ketentuan:
+1. Ambil nama hotel sesuai yang tercantum pada data.
+2. Simpan URL Google Maps lengkap pada kolom google_maps_url.
+3. Simpan URL foto pada kolom image_url.
+4. Ekstrak koordinat latitude dan longitude dari URL Google Maps jika tersedia.
+5. Simpan harga persis seperti yang muncul pada data.
+6. Simpan rating dalam format angka.
+7. Simpan jumlah ulasan pada kolom review_count.
+8. Simpan kategori hotel (Hotel, 1-star hotel, 2-star hotel, 3-star hotel, 4-star hotel, dll.).
+9. Simpan deskripsi singkat hotel pada kolom description.
+10. Pisahkan fasilitas yang tersedia ke dalam facility_1, facility_2, facility_3, facility_4, dan facility_5.
+11. Jika jumlah fasilitas kurang dari 5, kosongkan kolom yang tidak terisi.
+12. Jangan mengubah nama, harga, rating, atau deskripsi.
+13. Hasil akhir harus berupa file Excel (.xlsx) yang siap diunduh.
